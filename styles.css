@@ -37,12 +37,14 @@ h2 {
 .search-bar #inputLocation {
   border: none;
   width: 70%;
+  background-color: #f2f2f2;
+  color: #303134;
 }
 .search-bar button {
   background: none;
   border: none;
-  background-color: white;
-  color: black;
+  background-color: #353539;
+  color: white;
   padding: 0.5em 1em;
   width: 30%;
   font-family: "Helvetica Neue", sans-serif;
