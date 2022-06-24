@@ -32,7 +32,7 @@ const chosenCity = ((name, country, feelslike, temp, maxtemp, mintemp, desc, hum
 
 
 let getWeather = async (city) => {
-    let string = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=7b0d8e1f49707785a9df06ad5f57927c`;
+    let string = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=7b0d8e1f49707785a9df06ad5f57927c`;
     const response = fetch(string, {mode: 'cors'})
     .then( (response) => {
         return response.json();
