@@ -1,0 +1,162 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1a1b26;
+}
+h2 {
+  font-family: sans-serif;
+  color: #f2f2f2;
+}
+#instructions {
+  color: white;
+  font-family: sans-serif;
+}
+.search-bar {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.search-bar #inputLocation {
+  border: none;
+  width: 70%;
+}
+.search-bar button {
+  background: none;
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 0.5em 1em;
+  width: 30%;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.container {
+  width: 320px;
+  height: 480px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.3)), to(rgba(30, 30, 30, 0.7))), url('images/simon-berger-twukN12EN7c-unsplash.jpg');
+  background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(30, 30, 30, 0.7)), url('images/simon-berger-twukN12EN7c-unsplash.jpg');
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 0.5em;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1em 0;
+}
+.header .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+}
+.header .item span {
+  padding: 0.7em 0 0 0;
+  font-size: 1.2em;
+}
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 2em 0;
+  width: 150px;
+}
+.main .left-m .temp {
+  font-size: 6em;
+}
+.main .right-m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100px;
+}
+.main .right-m .temp-logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  justify-self: flex-start;
+  font-size: 2.5em;
+  color: white;
+}
+.main .right-m .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+}
+.main .right-m .item span {
+  font-size: 1.3em;
+}
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.bottom .desc {
+  text-transform: capitalize;
+}
